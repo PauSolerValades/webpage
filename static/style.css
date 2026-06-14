@@ -1,0 +1,64 @@
+/* Base Page Setup */
+body {
+    background-color: #152238; /* Dark navy blue */
+    color: #E4E8EE; /* Light text for readability */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    
+    /* Wider, horizontal layout */
+    max-width: 1100px; 
+    margin: 15px auto; 
+    padding: 0 20px;
+}
+
+/* Navigation Bar */
+nav {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D49538; /* Complementary golden orange */
+}
+
+/* Site title / name */
+.site-title {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #E4E8EE;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+nav a {
+    color: #E4E8EE;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 0.85rem;
+}
+
+/* The complementary golden-orange accents */
+.accent {
+    color: #D49538; 
+}
+
+/* Make links inside your Typst content orange too */
+main a {
+    color: #D49538;
+}
+
+/* Simple hover effect so people know it is clickable */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Spacing for your Typst headings */
+h1, h2, h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+h1 { font-size: 1.3rem; }
+h2 { font-size: 1.1rem; }
+h3 { font-size: 0.95rem; }
