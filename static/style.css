@@ -4,7 +4,7 @@ body {
     color: #E4E8EE; /* Light text for readability */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.4;
-    font-size: 0.9rem;
+    font-size: 1rem;
     
     /* Wider, horizontal layout */
     max-width: 1100px; 
@@ -21,7 +21,7 @@ nav {
 
 /* Site title / name */
 .site-title {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #E4E8EE;
     margin-bottom: 12px;
@@ -34,7 +34,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 
 /* The complementary golden-orange accents */

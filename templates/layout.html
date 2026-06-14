@@ -12,9 +12,9 @@
     </header>
 
     <nav>
-        <a href="/">About</a>
-        <a href="/resume" class="accent">Resume</a>
-        <a href="/blog" class="accent">Writing</a>
+        <a href="/"{{if ne .Path "/"}} class="accent"{{end}}>About</a>
+        <a href="/resume"{{if ne .Path "/resume"}} class="accent"{{end}}>Resume</a>
+        <a href="/writings"{{if ne .Path "/writings"}} class="accent"{{end}}>Writings</a>
     </nav>
 
     <main>

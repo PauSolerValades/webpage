@@ -79,6 +79,7 @@ func (s *server) serveTemplate(w http.ResponseWriter, r *http.Request) {
 
 	data := map[string]interface{}{
 		"Content": template.HTML(content),
+		"Path":    r.URL.Path,
 	}
 	s.layout.Execute(w, data)
 }
